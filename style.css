@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pre-header{
+    background-color: black;
+    height: 38px;
+    color: white;
+     
+}
+.pre-header .sek-meni {
+    list-style: none;
+    text-align: center;
+}
+.pre-header .sek-meni li{
+    display: inline-block;
+    padding-top: 6px;
+}
+.pre-header .sek-meni li a{
+    color: gray;
+    text-decoration: none;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+.main-nav .pri-meni{
+    list-style: none;  
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.main-nav .pri-meni li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.main-nav img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-nav .pri-meni li a{
+    color: #767676;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+}
+.main-nav .pri-meni li a:hover{
+    color: red;
+    transition: 0.3s;
+}
+.logo{
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.hero-sekcija{
+    background-image: url('bgcblurlow.jpg');
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-sekcija h1{
+    font-size: 46px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    margin-top: 1500px;
+}
+.copy{
+    text-align: center;
+    font-size: 16px;
+}
+.phone{
+    height: 17px;
+}
+.ig{
+    height: 17px;
+}
+.pin{
+    height: 17px;
+}
+.pocetna{
+    margin-left: -50px;
+}
+.heroimg{
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .pri-meni{
+        display: none;
+    }
+    .logo{
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+    }
+}
+@media screen and (max-width:800px) {
+    .adresa {
+        opacity: 0%;
+    }
+    .pin {
+        opacity: 0%;
+    }
+@media screen and (max-width:500px) {
+    .sek-meni{
+        font-size: 15px;
+        text-align: center;
+    }
+    .phone{
+        margin-top: -3px;
+    }
+    .ig{
+        margin-top: -3px;
+    }
+}
